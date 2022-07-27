@@ -4,8 +4,8 @@ a{text-decoration: none;}
 ul, ul>li {padding-left:0; list-style:none;}
 
 /* 안내 .caution */
-.caution{display: block; position: relative; padding-left: 30px; background: url("../site/images/icons/warning_icon.png") left no-repeat;}
+.caution{display: block; position: relative; padding-left: 30px; background: url("../images/icons/warning_icon.png") left no-repeat;}
 
 /* 새창 */
-a.blank{position: relative; padding-right: 20px; background: url("../site/images/icons/blank_icon.png") right no-repeat;}
+a.blank{position: relative; padding-right: 20px; background: url("../images/icons/blank_icon.png") right no-repeat;}
 a.blank:before{display: block; position: absolute; bottom: 0; left: 0; width: 100%; height: 1px; background-color: #000; content: '';}
