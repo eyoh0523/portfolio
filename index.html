@@ -2,104 +2,144 @@
 <html lang="ko">
 <head>
     <meta charset="utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes">
     <link rel="stylesheet" type="text/css" href="./common/css/font.css"/>
-    <link rel="stylesheet" href="./site/css/main.css">
+    <link rel="stylesheet" type="text/css" href="./site/css/main.css">
+    <script src="./common/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./common/js/slick.min.js"></script>
+    <script type="text/javascript" src="./site/js/main.js"></script>
     <title>포트폴리오</title>
 </head>
 <body>
-<div class="colors">
-    <ul class="color_list">
-        <li class="color_item">#F8F9FC</li>
-        <li class="color_item">#BFC8EA</li>
-        <li class="color_item">#7B86AA</li>
-        <li class="color_item">#5B67A2</li>
-        <li class="color_item">#545051</li>
-    </ul>
+
+<div class="wrap">
+    <div class="colors">
+        <ul class="color_list">
+            <li class="color_item">#F8F9FC</li>
+            <li class="color_item">#BFC8EA</li>
+            <li class="color_item">#7B86AA</li>
+            <li class="color_item">#5B67A2</li>
+            <li class="color_item">#545051</li>
+        </ul>
+    </div>
+    
+    <div class="project_box">
+        <h3>MY <br> WORKS</h3>
+        <ul class="project_list">
+            <li class="project_item">
+                <a href="" target="_blank" title="새창" rel="noopener noreferrer" class="project_anchor">
+                    <p class="project_title">충청대학교</p>
+                    <div class="contribution_box">
+                        <ul class="contribution_list"><!-- quater, two quater, three quaters, four quater-->
+                            <li class="contribution_item four quater">대표 서브</li>
+                            <li class="contribution_item four quater">입학처 메인</li>
+                            <li class="contribution_item four quater">학과 메인2종</li>
+                            <li class="contribution_item two quater">컨텐츠</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="project_item">
+                <a href="" target="_blank" title="새창" rel="noopener noreferrer" class="project_anchor">
+                    <p class="project_title">충북도청</p>
+                    <div class="contribution_box">
+                        <ul class="contribution_list"><!-- quater, two quater, three quaters, four quater-->
+                            <li class="contribution_item four quater">대표 서브</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="project_item">
+                <a href="" target="_blank" title="새창" rel="noopener noreferrer" class="project_anchor">
+                    <p class="project_title">구리시청</p>
+                    <div class="contribution_box">
+                        <ul class="contribution_list"><!-- quater, two quater, three quaters, four quater-->
+                            <li class="contribution_item four quater">부설사이트 메인</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="project_item">
+                <a href="" target="_blank" title="새창" rel="noopener noreferrer" class="project_anchor">
+                    <p class="project_title">동두천 도서관</p>
+                    <div class="contribution_box">
+                        <ul class="contribution_list"><!-- quater, two quater, three quaters, four quater-->
+                            <li class="contribution_item four quater">대표 메인</li>
+                            <li class="contribution_item four quater">대표 서브</li>
+                            <li class="contribution_item three quater">컨텐츠</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="project_item">
+                <a href="" target="_blank" title="새창" rel="noopener noreferrer" class="project_anchor">
+                    <p class="project_title">강원대학교 입학처</p>
+                    <div class="contribution_box">
+                        <ul class="contribution_list"><!-- quater, two quater, three quaters, four quater-->
+                            <li class="contribution_item four quater">메인</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="project_item">
+                <a href="" target="_blank" title="새창" rel="noopener noreferrer" class="project_anchor">
+                    <p class="project_title">강원세계산림엑스포</p>
+                    <div class="contribution_box">
+                        <ul class="contribution_list"><!-- quater, two quater, three quaters, four quater-->
+                            <li class="contribution_item one quater">메인</li>
+                            <li class="contribution_item three quater">컨텐츠</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="project_item">
+                <a href="" target="_blank" title="새창" rel="noopener noreferrer" class="project_anchor">
+                    <p class="project_title">청주대학교 산학협력단</p>
+                    <div class="contribution_box">
+                        <ul class="contribution_list"><!-- quater, two quater, three quaters, four quater-->
+                            <li class="contribution_item four quater">메인</li>
+                            <li class="contribution_item four quater">서브</li>
+                            <li class="contribution_item three quater">컨텐츠</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="project_item">
+                <a href="" target="_blank" title="새창" rel="noopener noreferrer" class="project_anchor">
+                    <p class="project_title">강원관광재단</p>
+                    <div class="contribution_box">
+                        <ul class="contribution_list"><!-- quater, two quater, three quaters, four quater-->
+                            <li class="contribution_item four quater">메인</li>
+                            <li class="contribution_item two quater">컨텐츠</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="project_control">
+            <div class="project_progress">
+                <div class="project_progressbar"><span style="width: 0%;">0퍼센트</span></div>
+            </div>
+            <div class="button_wrap">
+                <button type="button" class="project_icon project_prev"></button>
+                <button type="button" class="project_icon project_next"></button>
+            </div>
+        </div>
+    </div>
+    
+    <p class="caution">페이지에 있는 아이콘은 <a href="https://remixicon.com/" target="_blank" title="새창"
+                                       rel="noopener noreferrer" class="blank">remixicon.com</a> 에 있는 아이콘을 사용했습니다.
+    </p>
+    
+    <footer id="footer">
+        <div class="up">
+            <button type="button" class="up_button bottom">
+                <span>맨위로</span>
+            </button>
+        </div>
+    </footer>
 </div>
-
-<h3>My Works</h3>
-<ul class="project_list">
-    <li class="project_item">
-        <a href="" target="_blank" title="새창" rel="noopener noreferrer" class="project_anchor">
-            <p class="project_title">충청대학교</p>
-            <div class="contribution_box">
-                <ul class="contribution_list"><!-- quater, two quater, three quaters, four quater-->
-                    <li class="contribution_item four quater">대표 서브</li>
-                    <li class="contribution_item four quater">입학처 메인</li>
-                    <li class="contribution_item four quater">학과 메인2종</li>
-                    <li class="contribution_item two quater">컨텐츠</li>
-                </ul>
-            </div>
-        </a>
-    </li>
-    <li class="project_item">
-        <a href="" target="_blank" title="새창" rel="noopener noreferrer" class="project_anchor">
-            <p class="project_title">충북도청</p>
-            <div class="contribution_box">
-                <ul class="contribution_list"><!-- quater, two quater, three quaters, four quater-->
-                    <li class="contribution_item four quater">대표 서브</li>
-                </ul>
-            </div>
-        </a>
-    </li>
-    <li class="project_item">
-        <a href="" target="_blank" title="새창" rel="noopener noreferrer" class="project_anchor">
-            <p class="project_title">구리시청</p>
-            <div class="contribution_box">
-                <ul class="contribution_list"><!-- quater, two quater, three quaters, four quater-->
-                    <li class="contribution_item four quater">부설사이트 메인</li>
-                </ul>
-            </div>
-        </a>
-    </li>
-    <li class="project_item">
-        <a href="" target="_blank" title="새창" rel="noopener noreferrer" class="project_anchor">
-            <p class="project_title">동두천 도서관</p>
-            <div class="contribution_box">
-                <ul class="contribution_list"><!-- quater, two quater, three quaters, four quater-->
-                    <li class="contribution_item four quater">대표 메인</li>
-                    <li class="contribution_item four quater">대표 서브</li>
-                    <li class="contribution_item three quater">컨텐츠</li>
-                </ul>
-            </div>
-        </a>
-    </li>
-    <li class="project_item">
-        <a href="" target="_blank" title="새창" rel="noopener noreferrer" class="project_anchor">
-            <p class="project_title">강원대학교 입학처</p>
-            <div class="contribution_box">
-                <ul class="contribution_list"><!-- quater, two quater, three quaters, four quater-->
-                    <li class="contribution_item four quater">메인</li>
-                </ul>
-            </div>
-        </a>
-    </li>
-    <li class="project_item">
-        <a href="" target="_blank" title="새창" rel="noopener noreferrer" class="project_anchor">
-            <p class="project_title">강원세계산림엑스포</p>
-            <div class="contribution_box">
-                <ul class="contribution_list"><!-- quater, two quater, three quaters, four quater-->
-                    <li class="contribution_item one quater">메인</li>
-                    <li class="contribution_item three quater">컨텐츠</li>
-                </ul>
-            </div>
-        </a>
-    </li>
-    <li class="project_item">
-        <a href="" target="_blank" title="새창" rel="noopener noreferrer" class="project_anchor">
-            <p class="project_title">청주대학교 산학협력단</p>
-            <div class="contribution_box">
-                <ul class="contribution_list"><!-- quater, two quater, three quaters, four quater-->
-                    <li class="contribution_item four quater">메인</li>
-                    <li class="contribution_item four quater">서브</li>
-                    <li class="contribution_item three quater">컨텐츠</li>
-                </ul>
-            </div>
-        </a>
-    </li>
-</ul>
-
-<p class="caution">페이지에 있는 아이콘은 <a href="https://remixicon.com/" target="_blank" title="새창" rel="noopener noreferrer" class="blank">remixicon.com</a> 에 있는 아이콘을 사용했습니다.</p>
 
 </body>
 </html>
